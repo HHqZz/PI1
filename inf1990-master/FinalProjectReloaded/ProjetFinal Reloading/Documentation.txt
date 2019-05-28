@@ -1,0 +1,8 @@
+Où Brancher les fils :
+
+La led se place sur le PORTA, au pins 1 et 2;
+
+Le son se place sur le PORTB, au pins 3 et 4;
+
+Les moteurs se placent sur le PORTD, au pins 5,7 et 6,8 pour les moteurs respectivements de gauche
+et droite.

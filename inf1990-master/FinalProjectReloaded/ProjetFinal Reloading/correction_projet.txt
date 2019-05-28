@@ -1,0 +1,51 @@
+Polytechnique Montréal
+
+Département de génie informatique et génie logiciel
+
+INF1995: Projet initial en ingénierie informatique 
+         et travail en équipe
+
+Grille de correction des programmes:
+
+Identification:
+  Travail Pratique # : Projet final
+  Section #  : 01
+  Équipe #   : 4446
+  Correcteur : Frédéric Fortier
+
+
+Lisibilité: 3.5 /5
+  En-têtes en début de programme et de fonctions   (1 point) : 1
+  Identificateurs significatifs (variables, etc.)  (1 point) : 0
+  Commentaires aux endroits stratégiques           (1 point) : 1
+  Indentation et facilité de lecture               (1 point) : 0.5
+  Broches, ressources matérielles bien identifiées (1 point) : 1
+
+Modularité et comprehension:  3.25 /5
+  Les fonctions sont assez courtes, bien
+        établies et avec de bons paramètres        (1 point) : 0
+  Le code reflète une bonne compréhension
+        des concepts de base                       (2 points): 1.25
+  Le code montre que la solution proposée
+        permet de bien résoudre le problème        (2 points): 2
+
+Fonctionnalité:  9.75 /10
+  Soumission réussie sous git (bon endroit, 
+        sans fichiers inutiles)                    (3 points): 3
+  Compilation sans "warnings" et sans erreurs      (2 points) : 1.75
+  Fonctionnement correct (évalué en "boite noire") (5 points): 5
+
+
+Total:   16.50 /20
+
+
+Commentaires du correcteur:
+- Un petit warning restant -0.25
+- Votre main est beaucoup trop long et répète beaucoup trop de code! Il aurait été préférable de le séparer en sous-fonctions
+  (possiblement dans d'autres fichiers) et d'utiliser un modèle de programmation plus flexible que la machine à état: il 
+  n'y a aucune bonne raison pour avoir 5 états suivreLigne plutôt qu'une fonction suivreLigne(). -1.75
+- Beaucoup de valeurs magiques, notament dans le suivage de lignes, qui aurait eu intérêt (pour la clarté du code) à être mis
+  dans un define/enum/constantes. En fait, il manque une classe pour le suivage de ligne -1
+- Indentation variable -0.5
+
+
